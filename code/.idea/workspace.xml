@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae82f939-b3e9-40dd-85f1-390c91b64cb4" name="Changes" comment="" />
+    <list default="true" id="ae82f939-b3e9-40dd-85f1-390c91b64cb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percolation/Algorithms, Part I.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percolation/Computer Science.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percolation/Percolation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/SocialNetworkConnectivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/SocialNetworkConnectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/SuccessorWithDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/SuccessorWithDeleteUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/UnionFindCanonical.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/UnionFindCanonical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/input-cnl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union-find/src/input-snc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/union-find/QuickUnionWeighted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/union-find/QuickUnionWeighted.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +34,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/hello/algs4.jar!/edu/princeton/cs/algs4/StdOut.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -25,6 +48,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2zsG9WyZ0tazIXMX6hZI2J1DagE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,11 +60,15 @@
     "Application.HelloGoodbye.executor": "Run",
     "Application.QuickUnion.executor": "Debug",
     "Application.QuickUnionWeighted.executor": "Debug",
+    "Application.SuccessorWithDelete.executor": "Run",
     "Application.UnionFind.executor": "Run",
     "Application.UnionFindBasic.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/shanuka/Desktop/cs-projects/algorithms-java-princeton/code/union-find/src",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/shanuka/Desktop/cs-projects/algorithms-java-princeton/code/percolation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +82,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/percolation" />
       <recent name="$PROJECT_DIR$/union-find/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -75,7 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1752512215306</updated>
       <workItem from="1752512216400" duration="1270000" />
-      <workItem from="1752513505360" duration="29694000" />
+      <workItem from="1752513505360" duration="57068000" />
+      <workItem from="1752736142582" duration="81000" />
+      <workItem from="1752736235169" duration="13642000" />
     </task>
     <servers />
   </component>
