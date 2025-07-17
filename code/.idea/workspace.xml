@@ -5,22 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae82f939-b3e9-40dd-85f1-390c91b64cb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/percolation/Algorithms, Part I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/percolation/Computer Science.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/percolation/Percolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/SocialNetworkConnectivity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/SocialNetworkConnectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/SuccessorWithDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/SuccessorWithDeleteUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/UnionFindCanonical.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/UnionFindCanonical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/input-cnl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union-find/src/input-snc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/percolation/PercolationStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/union-find/QuickUnionWeighted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/union-find/QuickUnionWeighted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Algorithms, Part I.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/Algorithms, Part I.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/HelloGoodbye.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/HelloGoodbye.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/RandomWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/RandomWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/.noai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/codeInsightSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/dictionaries/lift.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/file.template.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/includes/File Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/AnnotationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/fileTemplates/internal/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/inspectionProfiles/Algorithms__Part_I.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/inspectionProfiles/Algorithms__Part_I.xml.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/inspectionProfiles/COS_126.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/libraries/algs4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/libraries/introcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/percolation/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/Percolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/percolation/Percolation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/percolation/Percolation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +82,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloGoodbye.executor": "Run",
+    "Application.Percolation.executor": "Debug",
+    "Application.PercolationStats.executor": "Debug",
+    "Application.PercolationVisualizer.executor": "Debug",
     "Application.QuickUnion.executor": "Debug",
     "Application.QuickUnionWeighted.executor": "Debug",
     "Application.SuccessorWithDelete.executor": "Run",
@@ -77,6 +104,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.291954",
+    "settings.editor.selected.configurable": "discord-application",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,6 +117,34 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Percolation">
+    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="code" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/percolation/input6.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Percolation" />
+      <item itemvalue="Application.PercolationStats" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Percolation" />
+        <item itemvalue="Application.PercolationStats" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -108,11 +164,33 @@
       <workItem from="1752512216400" duration="1270000" />
       <workItem from="1752513505360" duration="57068000" />
       <workItem from="1752736142582" duration="81000" />
-      <workItem from="1752736235169" duration="13642000" />
+      <workItem from="1752736235169" duration="23591000" />
+      <workItem from="1752761564865" duration="2153000" />
+      <workItem from="1752764617772" duration="16949000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/percolation/PercolationVisualizer.java</url>
+          <line>63</line>
+          <properties class="PercolationVisualizer" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/percolation/PercolationVisualizer.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

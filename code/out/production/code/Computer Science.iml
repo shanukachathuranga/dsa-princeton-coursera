@@ -9,10 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />
       <excludePattern pattern="*.class" />
-      <excludePattern pattern=".noai" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="algs4" level="project" />
+    <orderEntry type="library" exported="" name="introcs" level="project" />
   </component>
 </module>

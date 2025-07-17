@@ -4,27 +4,32 @@ import edu.princeton.cs.algs4.StdOut;
 public class Percolation {
     private Block[] grid;
     private int openSites = 0;
-    int size;
+    private int size;
 
     public static void main(String[] args) {
-        int n = StdIn.readInt();
-        Percolation pl = new Percolation(n);
-        while (!StdIn.isEmpty()){
-            pl.open(StdIn.readInt(), StdIn.readInt());
-        }
-        StdOut.println("Open sites: "+ pl.openSites);
-        StdOut.println(pl.percolates() ? "percolates" : "do not percolates");
+        // int n = StdIn.readInt();
+        // Percolation pl = new Percolation(n);
+        // while (!StdIn.isEmpty()){
+        //     int row = StdIn.readInt();
+        //     int col = StdIn.readInt();
+        //     pl.open(row, col);
+        //     StdOut.printf("(%d, %d) isOpen = %b, isFull = %b", row, col, pl.isOpen(row, col), pl.isFull(row, col));
+        // }
+        // StdOut.println("Open sites: "+ pl.openSites);
+        // StdOut.println(pl.percolates() ? "percolates" : "do not percolates");
+        // StdOut.println(pl.isOpen(1,2));
     }
 
     public Percolation(int n){
+        if(n < 1){
+            throw new IllegalArgumentException();
+        }
         this.size = n;
         this.grid = new Block[n*n+2];  //create nxn size block array
         for (int i = 1; i <= n; i++){
             for (int j = 1; j <= n; j++){
                 if(i == 1){
                     grid[getBlockIndex(i, j)] = new Block(i, j, 0);
-                }else if(i == n){
-                    grid[getBlockIndex(i, j)] = new Block(i, j, (n*n)+1);
                 } else {
                     grid[getBlockIndex(i, j)] = new Block(i, j, getBlockIndex(i, j));
                 }
@@ -39,7 +44,10 @@ public class Percolation {
     }
 
     public void open(int row, int col){
-        if (isFull(row, col)){
+        if(row < 1 || row > size || col < 1 || col > size){
+            throw new IllegalArgumentException();
+        }
+        if (!isOpen(row, col)){
             grid[getBlockIndex(row, col)].fill = 0;
             openSites++;
 
@@ -54,7 +62,7 @@ public class Percolation {
             }
 
             // check left
-            if(col-1 >= 0 && isOpen(row, col-1)){
+            if(col-1 >= 1 && isOpen(row, col-1)){
                 union(getBlockIndex(row, col), getBlockIndex(row, col-1));
             }
 
@@ -68,11 +76,18 @@ public class Percolation {
     }
 
     public boolean isOpen(int row, int col){
+        if(row < 1 || row > size || col < 1 || col > size){
+            throw new IllegalArgumentException();
+        }
         return grid[getBlockIndex(row, col)].fill == 0;
     }
 
     public boolean isFull(int row, int col){
-        return grid[getBlockIndex(row, col)].fill == 1;
+        if(row < 1 || row > size || col < 1 || col > size){
+            throw new IllegalArgumentException();
+        }
+        if(!isOpen(row, col)){ return false;}
+        return root(getBlockIndex(row, col)) == root(0);
     }
 
     public int numberOfOpenSites(){
@@ -80,10 +95,19 @@ public class Percolation {
     }
 
     public boolean percolates(){
-        if(size == 1 && isOpen(1, 1)){
+        if(size <= 1 && isOpen(1, 1)){
             return true;
+        }else if (size > 1){
+            for(int i = 1; i <= size; i++){
+                if (root(0) == root(getBlockIndex(size, i))){
+                    return true;
+                }
+            }
+            return false;
         }
-        return root(0) == root(size*size+1);
+
+        return false;
+
     }
 
     //get the index of the block given the coordinates
@@ -147,7 +171,7 @@ class Block{
         this.col = col;
         this.parent = parent;
         this.size = 0;
-        this.fill = 1;
+        this.fill = -1;
     }
 }
 
